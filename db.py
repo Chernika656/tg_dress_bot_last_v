@@ -4,7 +4,7 @@ import pymysql
 try:
     connection = pymysql.connect(host='server121.hosting.reg.ru',
                             user='u0114376_project',
-                            password='nF4!oR7!rQgK3$nG',
+                            password='',
                             database='u0114376_project1',
                             cursorclass=pymysql.cursors.DictCursor)
 except:
